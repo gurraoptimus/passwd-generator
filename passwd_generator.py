@@ -4,4 +4,4 @@ import string
 def generate_password(min_length, numbers=True, special_characters=True):
     letters = string.ascii_letters
     digits = string.digits
-    spec
+    special_chars =
