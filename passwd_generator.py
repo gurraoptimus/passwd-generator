@@ -33,7 +33,7 @@ while not meets_criteria or len(pwd) < min_length:
     if special_characters:
         meets_criteria = meets_criteria and has_special
 
-return pwd
+Return: pwd
 
 
 min_length = int(input("Enter the minimum length: "))
