@@ -22,6 +22,13 @@ while not meets_criteria or len(pwd) < min_length:
     new_char = random.choice(characters)
     pwd += new_char
 
+if new_char in digits:
+    has_number = True
+elif new_char in special:
+    has_special = True
+
+mee
+
 
 
 generate_password(10)
