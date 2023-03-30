@@ -18,8 +18,8 @@ def generate_password(min_length, numbers=True, special_characters=True):
     has_number = False
     has_special = False
 
-while not meets_criteria or len(pwd) < min_length:
-    new_char = random.choice(characters)
+    while not meets_criteria or len(pwd) < min_length:
+        new_char = random.choice(characters)
     pwd += new_char
 
     if new_char in digits:
