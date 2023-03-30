@@ -36,6 +36,6 @@ if special_characters:
 return pwd
 
 
-min_length = input("Enter the minimum length: ")
+min_length = int(input("Enter the minimum length: "))
 pwd = generate_password(10)
 print(pwd)
