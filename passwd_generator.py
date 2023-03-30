@@ -22,7 +22,7 @@ def generate_password(min_length, numbers=True, special_characters=True):
         new_char = random.choice(characters)
     pwd += new_char
 
-    if new_char in digits:
+    if new_char in string.digits:
         has_number = True
     elif new_char in special:
         has_special = True
@@ -32,8 +32,8 @@ def generate_password(min_length, numbers=True, special_characters=True):
         meets_critera = has_number
     if special_characters:
         meets_criteria = meets_criteria and has_special
-
-Return: pwd
+def pwd():
+    return pwd
 
 
 min_length = int(input("Enter the minimum length: "))
