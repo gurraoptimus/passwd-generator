@@ -33,8 +33,9 @@ if numbers:
 if special_characters:
         meets_criteria = meets_criteria and has_special
 
-"return" "pwd"
+return pwd
 
 
+min_length = input("Enter the minimum length: ")
 pwd = generate_password(10)
-
+print(pwd)
