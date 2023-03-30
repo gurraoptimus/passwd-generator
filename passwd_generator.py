@@ -27,8 +27,14 @@ if new_char in digits:
 elif new_char in special:
     has_special = True
 
-mee
+meets_criteria = True
+if numbers:
+        meets_criteria = has_number
+if special_characters:
+        meets_criteria = meets_criteria and has_special
+
+return pwd
 
 
+pwd = generate_password(10)
 
-generate_password(10)
