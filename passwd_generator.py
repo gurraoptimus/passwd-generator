@@ -33,7 +33,7 @@ if numbers:
 if special_characters:
         meets_criteria = meets_criteria and has_special
 
-return pwd
+"return" "pwd"
 
 
 pwd = generate_password(10)
