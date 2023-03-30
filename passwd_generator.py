@@ -29,7 +29,7 @@ while not meets_criteria or len(pwd) < min_length:
 
     meets_criteria = True
     if numbers:
-        meets_criteria = has_number
+        meets_critera = has_number
     if special_characters:
         meets_criteria = meets_criteria and has_special
 
